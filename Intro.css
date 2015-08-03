@@ -1,0 +1,131 @@
+body {
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-size: 200%;
+    font-family: Cursive;
+}
+div.name {
+	font-size: 2em;
+	font-weight: 800;
+	background-color: white;
+	padding: 15px 85px 5px 35px;
+	margin-top: 15px;
+	margin-right: -10px;
+	padding-bottom: 2px;
+	opacity: 0.4;
+	position: relative;
+	float: right;
+}
+div.icon {
+	background-color: white;
+    height: 85px;
+    width: 85px;
+    margin-top: 5px;
+    position: relative;
+    float: right;
+}
+div.line {
+	border-left:1px white solid;
+}
+div.personalSit {
+    font-size:1em;
+    font-weight: 700;
+    white-space: pre-wrap;
+    background-color: black;
+    margin: 15px 15px 15px -8px;
+    padding: 0px 25px 15px 5px;
+    display: inline-block;
+    opacity: .4;
+    position: relative;
+    float: left;
+    bottom: -85px;
+}
+p {
+    font-size:1em;
+    font-weight: 700;
+    white-space: pre-wrap;
+    color: white;
+    margin: 15px 1px 15px -8px;
+    padding: 4px 25px 15px 5px;
+    display: inline-block;
+}
+p.personalSpec {
+    position: relative;
+    float: left;
+    bottom: 57px;
+}
+div.acedemicSit {
+    font-size:1em;
+    font-weight: 700;
+    white-space: pre-wrap;
+    background-color: black;
+    margin: 15px 15px 15px -8px;
+    padding: 0px 25px 15px 5px;
+    display: inline-block;
+    opacity: .4;
+    position: relative;
+    float: left;
+    bottom: 10px;
+}
+p.acedemicSpec {
+    position: relative;
+    float: left;
+    bottom: 154px;
+}
+div.moreAboutMeSit {
+    font-size:1em;
+    font-weight: 700;
+    white-space: pre-wrap;
+    background-color: black;
+    margin: 15px 15px 15px -8px;
+    padding: 0px 25px 15px 5px;
+    display: inline-block;
+    opacity: .4;
+    position: relative;
+    float: left;
+    bottom: 100px;
+}
+p.moreAboutMeSpec {
+    position: relative;
+    float: left;
+    bottom: 290px;
+}
+img.specEffect {
+	position: relative;
+	float: right;
+	right: 300px;
+	bottom: 950px;
+}
+img.avatar {
+	height: 81px;
+    width: 81px;
+    margin: 2px;
+}
+p.pSpec {
+    position: relative;
+	float: right;
+	right: 120px;
+	bottom: 545px;
+}
+p.surpri {
+	position: relative;
+	float: right;
+	right: 10px;
+	top:1000px;
+}
+a {
+    color: white;
+}
+a.special {
+	color: black;
+	opacity: .4;
+}
+#video {
+	position: relative;
+	float: right;
+	right: 95px;
+	bottom: 700px;
+}
+.clear {
+	clear: both;
+}

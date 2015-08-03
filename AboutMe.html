@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Me -- Jannie Kung</title>
+	<link rel="stylesheet" type="text/css" href="Intro.css">
+	<link rel="icon" href="icon.jpg">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<div class="name">
+	Jannie Kung
+</div>
+<div class="icon">
+	<img src="Avatar.jpg" alt="User Avatar" class="avatar">
+</div>
+<div class="personalSit">
+    <strong>Personal Information</strong>
+        Hometown: Guangzhou
+        Age: 19
+</div>
+<div class="clear"></div>
+<p class="personalSpec">
+    <strong>Personal Information</strong>
+        Hometown: Guangzhou
+        Age: 19
+</p>
+<div class="clear"></div>
+<div class="acedemicSit">
+    <strong>Academic Situation</strong>
+        Campus: Sun Yat-sen University
+        Subject: Software Engineering
+</div>
+<div class="clear"></div>
+<p class="acedemicSpec">
+    <strong>Academic Situation</strong>
+        Campus: Sun Yat-sen University
+        Subject: Software Engineering
+</p>
+<div class="clear"></div>
+<div class="moreAboutMeSit">
+    <strong>More About Me & Contact Me</strong>
+        Zhihu: <a class="special" href="http://www.zhihu.com/people/gong-he-he-93">Gong Hehe</a>
+        Github: <a class="special" href="https://github.com/kungcn">Jannie Kung</a>
+        CSDN-blog: <a class="special" href="http://blog.csdn.net/jannie_kung">Jannie Kung</a>
+        Email: kcnnow@gmail.com
+</div>
+<div class="clear"></div>
+<p class="moreAboutMeSpec">
+    <strong>More About Me & Contact Me</strong>
+        Zhihu: <a href="http://www.zhihu.com/people/gong-he-he-93">Gong Hehe</a>
+        Github: <a href="https://github.com/kungcn">Jannie Kung</a>
+        CSDN-blog: <a href="http://blog.csdn.net/jannie_kung">Jannie Kung</a>
+        Email: kcnnow@gmail.com
+</p>
+<div class="clear"></div>
+<video width="400" height="320" controls="controls" id = "video">
+  <source src="Jibo.mp4" type="video/mp4">
+</video>
+<img id="myimage" onclick="changeImage()" src="eg_bulboff.gif" alt="Light" class="specEffect">
+<p id="tips" class="pSpec">
+  天黑请开灯~(～￣▽￣)～
+  <br>
+  <button type="button" onclick="changeText()">在开灯之前点击有惊喜哦！</button>
+  <br>
+  <span id = "text"></span>
+</p>
+<div class="clear"></div>
+<script type="text/javascript">
+function changeImage() {
+    x=document.getElementById("tips");
+    element=document.getElementById('myimage')
+    if (element.src.match("bulbon")) {
+      element.src="eg_bulboff.gif";
+      x.innerHTML="天黑请开灯~(～￣▽￣)～";
+    } else {
+      element.src="eg_bulbon.gif";
+      x.innerHTML="之前已经说了为什么选用这个视频了，\n诚然我个人的兴趣并不在机器人，\n但是我对创造Jibo时所用到的\n各种技术十分感兴趣，哈哈，\n请叫我安利菌。=￣ω￣=";
+    }
+}
+function changeText() {
+    x=document.getElementById("text");
+    x.innerHTML="为什么说代码改变世界，\n科技改变生活，请看右面的视频\nb(￣▽￣)d→→→→→→(受死吧)\n";
+}
+</script>
+</body>
+</html>
