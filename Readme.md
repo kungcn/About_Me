@@ -10,4 +10,4 @@ There are two things in the repository, one was called **Readme.md** and another
 * Two photos about bulb was used in the website too. I made some change to them by 画图 in Windows. However, I just downloaded them during the course of JavaScript on w3school.
 * Because I wrote the files when I was designing, I think maybe the layout is not quite good and I think I will update it in some time.
 
-**If you want to use my codes for any purpose, please contact me with my email:`kcnnow@gmail.com` to get permission. If you use my codes without permission, I think you should shoulder relevant responsibility. If I have no right to use the video or any photo in my website, please contact me with email or something else, I will delete it as soon as possible. Thank you!**
+**If you want to use my codes for any purpose, please contact me with my email:`kcnnow(at)gmail.com` to get permission. If you use my codes without permission, I think you should shoulder relevant responsibility. If I have no right to use the video or any photo in my website, please contact me with email or something else, I will delete it as soon as possible. (at) must be replaced by @.  Thank you!** 
